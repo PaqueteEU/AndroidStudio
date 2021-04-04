@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">PlayListOnLine CA</string>
+    //StartActivity
+    <string name="label1_start_text">&#160;PlayListOnLine CA</string>
+    <string name="label2_start_text1">No hay ningún registro CA</string>
+    <string name="label2_start_text2">Tienes CA&#160;</string>
+    <string name="label2_start_text3">&#160;registros en tu lista CA</string>
+    <string name="toast1_start_text">Cerrando aplicación...CA</string>
+    <string name="builder1_start_text">Cerrar Aplicación CA</string>
+    <string name="builder2_start_text">¿Estás seguro que quieres de la aplicación? CA</string>
+    <string name="builder3_start_text">Salir CA</string>
+    <string name="builder4_start_text">No CA</string>
+    <string name="builder5_start_text">Eliminar registro CA</string>
+    <string name="builder6_start_text">¿Estás seguro que quieres eliminar la nota? CA</string>
+    <string name="builder7_start_text">Si CA</string>
+    <string name="builder8_start_text">He borrado el id: CA</string>
+    <string name="builder9_start_text">No CA</string>
+    //CrearActivity
+    <string name="label1_crear_text">Añadir video online CA</string>
+    <string name="caja1_crear_text">Escribe el título CA</string>
+    <string name="caja2_crear_text">Escribe la url CA</string>
+    <string name="boton1_crear_text">Guardar CA</string>
+    <string name="toast1_crear_text">Registro insertado correctamente CA</string>
+    <string name="prioridad1_crear_text">Muy Alta CA</string>
+    <string name="prioridad2_crear_text">Alta CA</string>
+    <string name="prioridad3_crear_text">Media CA</string>
+    <string name="prioridad4_crear_text">Baja CA</string>
+    <string name="prioridad5_crear_text">Muy Baja CA</string>
+    <string name="seterror1_crear_text">Debe escribir un título CA</string>
+    <string name="seterror2_crear_text">Debe escribir una url CA</string>
+    //CrearActivity
+    <string name="toast1_rep_text">Error: no ha llegado ningun registro CA</string>
+</resources>

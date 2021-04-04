@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Notitas EN</string>
+    //StartActivity
+    <string name="label1_start_text">Aplication to create notes</string>
+    //ListadoActivity
+    <string name="label1_list_text">List Activity</string>
+    <string name="label2_list_text">Add note</string>
+    <string name="toast1_list_text">The option selected does not exists</string>
+    //VerNotaActivity
+    <string name="label1_ver_text">See Note Activity</string>
+    <string name="label2_ver_text">Title:</string>
+    <string name="label3_ver_text">Telephone:</string>
+    <string name="label4_ver_text">Place:</string>
+    <string name="label5_ver_text">Customer:</string>
+    <string name="label6_ver_text">Url:</string>
+    <string name="caja2_ver_text">Deleting...</string>
+    <string name="boton1_ver_text">Back</string>
+    <string name="boton2_ver_text">Delete</string>
+    <string name="toast1_ver_text">No information received</string>
+    <string name="toast2_ver_text">Note created successfully</string>
+    //CrearNotaActivity
+    <string name="label1_crear_text">Create Note Activity</string>
+    <string name="label2_crear_text">Title:</string>
+    <string name="label3_crear_text">Telephone:</string>
+    <string name="label4_crear_text">Place:</string>
+    <string name="label5_crear_text">Customer:</string>
+    <string name="label6_crear_text">Url:</string>
+    <string name="caja1_crear_text">Enter a title</string>
+    <string name="caja2_crear_text">Enter a telephone</string>
+    <string name="caja3_crear_text">Enter a place</string>
+    <string name="caja4_crear_text">Enter a customer</string>
+    <string name="caja5_crear_text">Enter an url</string>
+    <string name="boton1_crear_text">Back</string>
+    <string name="boton2_crear_text">Create</string>
+    <string name="toast1_crear_text">You must enter a title</string>
+    <string name="toast2_crear_text">Note added succesfully</string>
+    <string name="toast3_crear_text">Note created successfully</string>
+    //BorrarNotasActivity
+    <string name="label1_borrar_text">Delete Notes Activity</string>
+    <string name="boton1_borrar_text">Delete all notes</string>
+    <string name="boton1_2_borrar_text">Deleting...</string>
+    <string name="boton2_borrar_text">Back</string>
+    <string name="toast1_borrar_text">All notes deleted successfully</string>
+    //ActualizarNotaActivity
+    <string name="label1_act_text">Update Note Activity</string>
+    <string name="label2_act_text">Title:</string>
+    <string name="label3_act_text">Telephone:</string>
+    <string name="label4_act_text">Place:</string>
+    <string name="label5_act_text">Customer:</string>
+    <string name="label6_act_text">Url:</string>
+    <string name="caja2_act_text">Saving...</string>
+    <string name="boton1_act_text">Back</string>
+    <string name="boton2_act_text">Update</string>
+    <string name="toast1_act_text">No information received</string>
+    <string name="toast2_act_text">You must enter a title</string>
+    <string name="toast3_act_text">Note updated successfully</string>
+</resources>

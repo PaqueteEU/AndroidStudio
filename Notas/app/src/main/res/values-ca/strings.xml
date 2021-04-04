@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Notitas CA</string>
+    //StartActivity
+    <string name="label1_start_text">Programa para la creación de notas CA</string>
+    //ListadoActivity
+    <string name="label1_list_text">Listado Activity CA</string>
+    <string name="label2_list_text">Añadir nota CA</string>
+    <string name="toast1_list_text">No existe una nota de la opcion seleccionada CA</string>
+    //VerNotaActivity
+    <string name="label1_ver_text">   Ver Nota Activity CA</string>
+    <string name="label2_ver_text">Título: CA</string>
+    <string name="label3_ver_text">Teléfono: CA</string>
+    <string name="label4_ver_text">Lugar: CA</string>
+    <string name="label5_ver_text">Cliente: CA</string>
+    <string name="label6_ver_text">Url: CA</string>
+    <string name="caja2_ver_text">Eliminando... CA</string>
+    <string name="boton1_ver_text">Volver CA</string>
+    <string name="boton2_ver_text">Borrar CA</string>
+    <string name="toast1_ver_text">No ha llegado ninguna información CA</string>
+    <string name="toast2_ver_text">Nota borrada correctamente CA</string>
+    //CrearNotaActivity
+    <string name="label1_crear_text">Crear Nota Activity CA</string>
+    <string name="label2_crear_text">Título: CA</string>
+    <string name="label3_crear_text">Teléfono: CA</string>
+    <string name="label4_crear_text">Lugar: CA</string>
+    <string name="label5_crear_text">Cliente: CA</string>
+    <string name="label6_crear_text">Url: CA</string>
+    <string name="caja1_crear_text">Introduce un título CA</string>
+    <string name="caja2_crear_text">Introduce un teléfono: CA</string>
+    <string name="caja3_crear_text">Introduce un lugar CA</string>
+    <string name="caja4_crear_text">Introduce un cliente CA</string>
+    <string name="caja5_crear_text">Introduce una url CA</string>
+    <string name="boton1_crear_text">Volver CA</string>
+    <string name="boton2_crear_text">Crear CA</string>
+    <string name="toast1_crear_text">Debe introducir obligatoriamente un título CA</string>
+    <string name="toast2_crear_text">Nota añadida correctamente CA</string>
+    <string name="toast3_crear_text">Nota creada correctamente CA</string>
+    //BorrarNotasActivity
+    <string name="label1_borrar_text">Borrar Notas Activity CA</string>
+    <string name="boton1_borrar_text">Borrar todas las notas CA</string>
+    <string name="boton1_2_borrar_text">Borrando... CA</string>
+    <string name="boton2_borrar_text">Volver CA</string>
+    <string name="toast1_borrar_text">Se han borrado todas las notas correctamente CA</string>
+    //ActualizarNotaActivity
+    <string name="label1_act_text">Actualizar Nota Activity CA</string>
+    <string name="label2_act_text">Título: CA</string>
+    <string name="label3_act_text">Teléfono: CA</string>
+    <string name="label4_act_text">Lugar: CA</string>
+    <string name="label5_act_text">Cliente: CA</string>
+    <string name="label6_act_text">Url: CA</string>
+    <string name="caja2_act_text">Guardando... CA</string>
+    <string name="boton1_act_text">Volver CA</string>
+    <string name="boton2_act_text">Actualizar CA</string>
+    <string name="toast1_act_text">No ha llegado ninguna información CA</string>
+    <string name="toast2_act_text">Debe introducir obligatoriamente un título CA</string>
+    <string name="toast3_act_text">Nota actualizada correctamente CA</string>
+</resources>

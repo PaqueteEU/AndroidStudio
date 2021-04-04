@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8DD7E"
+    tools:context=".VerNotaActivity">
+
+    <TextView
+        android:id="@+id/label1_ver"
+        android:layout_width="0dp"
+        android:layout_height="77dp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center_vertical"
+        android:text="@string/label1_ver_text"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label1_ver">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <TextView
+                android:id="@+id/label2_ver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label2_ver_text"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/caja2_ver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/label3_ver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label3_ver_text"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/caja3_ver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/label4_ver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label4_ver_text"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/caja4_ver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/label5_ver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label5_ver_text"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/caja5_ver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/label6_ver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label6_ver_text"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/caja6_ver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableLayout">
+
+        <Button
+            android:id="@+id/boton1_ver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/boton1_ver_text"
+            app:backgroundTint="#03A9F4" />
+
+        <Button
+            android:id="@+id/boton0_ver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/boton2_ver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/boton2_ver_text"
+            app:backgroundTint="#03A9F4" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
